@@ -1,0 +1,21 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 IDE 和编辑器生成的文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略编译生成的文件和目录
+target/
+dist/
+build/
+nlp/
+
+# 忽略日志文件
+*.log
+
+# 忽略配置文件（如果不希望将配置信息提交到版本库）
+config.ini
