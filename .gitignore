@@ -2,12 +2,13 @@
 .DS_Store
 Thumbs.db
 
+
 # 忽略 IDE 和编辑器生成的文件
 .idea/
 .vscode/
 *.sublime-project
 *.sublime-workspace
-
+*.bin
 # 忽略编译生成的文件和目录
 target/
 dist/
